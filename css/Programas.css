@@ -54,13 +54,14 @@ button:hover {
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 392px;
-    margin: 20px;
+    max-width: 430px;
+    margin: 82px;
     overflow: hidden;
     transition: transform 0.3s, box-shadow 0.3s;
     display: inline-block;
-    height: 70vh;
+    height: 50vh;
     text-align: center;
+    font-size: 1.05rem;
 }
 
 .cursos:hover {
@@ -83,7 +84,6 @@ button:hover {
 .boton-container {
     display: flex;
     justify-content: center;
-    padding: 10px;
     text-align: right;
     padding: 20px;
 }

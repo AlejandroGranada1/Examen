@@ -92,26 +92,25 @@ button:hover {
     background-color: #7FB3D5;
     border-radius: 10px;
     gap: 30px;
+    padding-bottom: 20px;
 }
 
 
-.art a {
+.Boton a {
     text-align: center;
     font-size: 1.4rem;
     background-color: #A9CCE3 ;
     color: white;
     text-decoration: none;
     border-radius: 7px;
-    padding: -1rem;
+    padding: 10px;
 }
 
-.art a:hover{
-    background-color: #7FB3D5;
+.Boton a:hover{
+    background-color: #9fc6e0;
     transition: 0.3s;
 }
 
-.boton > a {
-    margin-top: -10px;
-}
+
 
 

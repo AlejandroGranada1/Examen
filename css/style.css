@@ -33,10 +33,13 @@ nav img {
     text-decoration: none;
     color: black;
     cursor: pointer;
-    font-size: 1.1rem;
-    font-weight: 600;
+    font-size: 1.3rem;
+    font-weight: 700;
 }
 
+.links a:hover {
+    color: gray;
+}
 
 nav h1 {
     text-align: center;
@@ -73,14 +76,14 @@ nav h1 {
 }
 
 .aside p {
-    font-size: 1rem;
+    font-size: 1.3rem;
     width: 11rem;
 }
 
 .aside a{
     text-align: center;
     height: 2rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     background-color: #A9CCE3 ;
     color: white;
     text-decoration: none;
@@ -111,6 +114,8 @@ nav h1 {
 }
 
 .img {
+    width: 27rem;
+    height: 15rem   ;
     border-radius: 8px;
     margin: 20px auto;
     overflow: hidden;
@@ -134,34 +139,37 @@ nav h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 8px;
     background-color: #A9CCE3;
     border-radius: 10px;
 }
 
 .vid-cur {
     display: flex;
-    gap: 10px;
+    gap: 80px;
+    padding: 30px;
 }
 
 .cur-info {
-    height: 10rem;
+    height: 8rem;
     margin-top: -0.2rem;
     width: 100%;
-    background-color: white;
+    background-color: white;    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+.cur-info h2{
+    padding-top: 10px;
+}
 .cur-info h3 {
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
     font-size: 1.3rem;
 }
 
 .cur-info p {
-    height: 30%;
+    height: 33%;
     width: 100%;
     text-align: center;
     font-size: 1rem;
@@ -204,9 +212,6 @@ nav h1 {
     margin-bottom: 10px;
 }
 
-.redes a {
-    margin-left: 5px;
-}
 
 .red {
     border-radius: 8px;
