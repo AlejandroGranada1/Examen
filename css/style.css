@@ -76,13 +76,13 @@ nav h1 {
 }
 
 .aside p {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     width: 11rem;
 }
 
 .aside a{
     text-align: center;
-    height: 2rem;
+    height: 2.3rem;
     font-size: 1.3rem;
     background-color: #A9CCE3 ;
     color: white;
@@ -95,9 +95,6 @@ nav h1 {
     transition: 0.3s;
 }
 
-
-
-
 .cursos {
     grid-column: 3/12;
     display: flex;
@@ -107,10 +104,11 @@ nav h1 {
     background-color:  #A9CCE3;
     gap: 30px;
     border-radius: 10px;
+    font-size: 1.5rem;
 }
 
 .cursos h3 {
-    font-weight: 150;
+    font-weight: 170;
 }
 
 .img {
@@ -123,7 +121,7 @@ nav h1 {
 }
 
 .img:hover {
-    transform: translateY(-5px);
+    transform: translateY(-10px);
     box-shadow: 0 6px 10px 10px rgba(0, 0, 0, 0.15);
 }
 
