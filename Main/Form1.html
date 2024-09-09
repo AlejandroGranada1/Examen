@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="shortcut icon" href="../imgs/fav.png" type="image/x-icon">
+    <title>Desarrollo web</title>
+</head>
+<body>
+    <div class="container">
+        <a href="../Main/index.html"><button id="volverBtn">Volver</button></a>
+        <h2>Formulario de Inscripción</h2>
+        <form action="/enviar_formulario" method="post">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="Apellidos">Apellidos:</label>
+                <input type="text" id="Apellidos" name="Apellidos" required>
+            </div>
+            <div class="form-group">
+                <label for="documentoidt">Dc.Identidad:</label>
+                <input type="number" id="documentoidt" name="documentoidt" required>
+            </div>
+            <div class="form-group">
+                <label for="documentoidt">Numero de celular:</label>
+                <input type="number" id="Numero" name="Numero" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>  
+            <div class="form-group">
+                <label for="opcion">Elige tu opción:</label>
+                <select id="opcion" name="opcion" required>
+                    <option value="">Selecciona...</option>
+                    <option value="ionic">Ionic</option>
+                    <option value="flutter">Flutter</option>
+                    <option value="android_studio">Android Studio</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="HTML">HTML</option>
+                    <option value="Python">Python</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Inscribirse">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
